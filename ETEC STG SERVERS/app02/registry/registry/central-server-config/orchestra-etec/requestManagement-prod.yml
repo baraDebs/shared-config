@@ -70,6 +70,10 @@ spring:
                     destination: externalRequests
                     content-type: application/json
                     maxAttempts: 1
+                modifyBeneficiaryChannel:
+	                destination: modifyBeneficiary
+	                content-type: application/json
+	                maxAttempts: 1
                 taskEditChannel:
                     destination: taskEdit
                     content-type: application/json
